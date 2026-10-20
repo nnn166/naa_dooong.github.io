@@ -5,23 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>我的 Agent 使用记录</title>
   <style>
-    body { font-family: system-ui, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.7; color: #222; background-color: #fafafa;}
+    body { font-family: system-ui, -apple-system, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.7; color: #333; background-color: #f9f9f9; }
     h1 { border-bottom: 2px solid #333; padding-bottom: 8px; }
-    .agent-card { background: #ffffff; border-left: 4px solid #4CAF50; padding: 16px 20px; margin: 20px 0; border-radius: 0 6px 6px 0; box-shadow: 0 2px 5px rgba(0,0,0,0.05);}
-    .agent-card h2 { margin-top: 0; font-size: 1.2em; color: #333;}
+    .info { color: #666; font-size: 0.9em; margin-bottom: 30px; }
+    .agent-card { background: #ffffff; border-left: 4px solid #4CAF50; padding: 20px; margin: 20px 0; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+    .agent-card h2 { margin-top: 0; font-size: 1.25em; color: #2c3e50; border-bottom: 1px dashed #eee; padding-bottom: 10px; }
     .label { font-weight: bold; color: #555; }
-    .effect { background: #e8f4e8; padding: 2px 6px; border-radius: 3px; color: #2e7d32;}
+    .effect { background: #e8f4e8; padding: 4px 8px; border-radius: 4px; color: #2e7d32; display: inline-block; margin-top: 4px; }
+    .project { font-size: 0.9em; color: #e67e22; font-weight: bold; }
   </style>
 </head>
 <body>
 
   <h1>我的 Agent 使用记录</h1>
-  <p>姓名：张硕娜 | 学号：2430416018 | 日期：2026年10月19日</p>
+  <p class="info">姓名：张硕娜| 学号：2430416018 | 日期：2026年10月20日</p>
 
+  <!-- Agent 1 -->
   <div class="agent-card">
     <h2>Agent 1：Workbuddy（智能排版助手）</h2>
     <p><span class="label">用来做什么：</span>协助整理日常使用的 AI 工具流水账，对文字进行排版结构优化、润色语气，使其更符合专业作业的展示标准。</p>
     <p><span class="label">效果：</span><span class="effect">将原本需要近一小时的手动排版时间缩短至几分钟，生成的文案结构清晰、语言专业，极大提升了作业的完成效率。</span></p>
+  </div>
+
+  <!-- Agent 2 -->
+  <div class="agent-card">
+    <h2>Agent 2：Codex（AI 编程助手）</h2>
+    <p><span class="label">应用项目：</span><span class="project">ai_mental 项目</span></p>
+    <p><span class="label">用来做什么：</span>辅助完善项目代码。通过自然语言描述需求，让 AI 生成基础业务逻辑、补全代码片段，协助排查 Bug，并快速增加项目的新功能。</p>
+    <p><span class="label">效果：</span><span class="effect">显著减少了查阅文档和手敲重复代码的时间，代码编写效率提升约 50%；快速实现了新功能的原型搭建，让我能将更多精力集中在项目的整体架构和核心逻辑上。</span></p>
   </div>
 
 
